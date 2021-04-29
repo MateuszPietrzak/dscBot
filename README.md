@@ -5,3 +5,4 @@ You need to add your own .env file with TOKEN = <private_token> in order for app
 Current functionality:
   * Ping
   * Database
+  * Dice
