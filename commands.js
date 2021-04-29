@@ -1,7 +1,8 @@
 const ping = require("./commands/ping");
 const db = require("./commands/db");
+const dice = require("./commands/dice");
 
-const commands = { ping, db };
+const commands = { ping, db, dice };
 
 module.exports = async function(msg){
   if(msg.channel.id == 836875926339452969){
